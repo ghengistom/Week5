@@ -1,0 +1,31 @@
+
+import java.util.Scanner; //gets scanner library
+public class Lab5
+{
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+		System.out.println("Hungry");
+		System.out.println("Get in line");
+		System.out.println("Buy lunch");
+		System.out.println("Are you thirsty (1 for yes and 2 for no?)");
+		int drink=input.nextInt();
+		
+		if (drink==1)
+		{
+			System.out.println("Buy Coke");
+			System.out.println("Eat Lunch");
+			System.out.println("Leave");
+				
+		}
+		else
+		{
+			System.out.println("Get water");
+			System.out.println("Eat Lunch");
+			System.out.println("Leave");
+		}
+		
+		
+	}
+
+}
